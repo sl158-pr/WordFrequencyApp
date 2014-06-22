@@ -22,6 +22,7 @@ Words are split using space delimiter and stored in an array of String inputWord
 4) A arraylist of list of Strings used to store the words, index of each word is their frequency count.
 5) Add n words in output by copying list of words from backward index i.e. starting from maximumWord frequency index of Arraylist.
 
+Time Complexity: O(n) where n where n is the number of characters in the document
 Sample Input Text: 
 "GoldenFamily GoldenFamily GoldenFamily GoldenFamily GoldenFamily GoldenFamily GoldenFamily GoldenFamily GoldenFamily GoldenFamily GoldenFamily Sumanth Sumanth Sumanth Sumanth Sumanth Prathiba Prathiba  Prathiba Prathiba Pavan Lakshminarayana Lakshminarayana Lakshminarayana Sumanth Sumanth Sumanth Prathiba Prathiba Prathiba Sowmya Lokamatha Lokamatha Lokamatha Savitri Savitri  Savitri Lakshminarayana Lokamatha ";
 Number of words: 8
